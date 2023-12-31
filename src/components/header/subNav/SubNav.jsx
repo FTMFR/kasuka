@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../Header";
+import Boxs from "./boxs/Boxs";
 import "./subNav.scss";
 
 const SubNav = () => {
@@ -10,6 +11,7 @@ const SubNav = () => {
       <p className="title">KASUKA</p>
       <span>ما تیمی از بازاریابان با استعداد دیجیتال هستیم</span>
       <div className="backdrop"></div>
+      <Boxs />
     </div>
   );
 };
