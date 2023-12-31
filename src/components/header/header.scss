@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: transparent;
+    // color: #fff;
+
+
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style: none;
+        width: 600px;
+    }
+
+
+    .startBtn {
+        border: 3px solid #ffc451;
+        padding: 15px;
+        border-radius: 15px;
+    }
+}
