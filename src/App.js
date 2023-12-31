@@ -1,9 +1,9 @@
-import Header from './components/header/Header';
+import SubNav from './components/header/subNav/SubNav';
 import './App.css';
 
 function App() {
   return (
-    <Header />
+    <SubNav />
   );
 }
 
