@@ -1,0 +1,28 @@
+.clients {
+
+
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    img {
+        width: 150px;
+        height: 150px;
+        object-fit: contain;
+        filter: grayscale(100%);
+
+
+
+
+    }
+
+    img:hover {
+        filter: grayscale(0%);
+        cursor: pointer;
+    }
+
+    li {
+        list-style: none;
+    }
+}

@@ -1,0 +1,118 @@
+.header1 {
+    margin-bottom: 25px;
+
+    .part1 {
+        font-size: 15px;
+        color: #363636;
+        display: flex;
+        align-items: baseline;
+        gap: 15px;
+
+        .divition {
+            width: 150px;
+            height: 2px;
+            background-color: #ffc451;
+        }
+
+    }
+
+
+    .part2 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+}
+
+.container2 {
+
+    .wholeBox {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+        width: 1100px;
+        margin: 0 auto 25px;
+
+
+        .boxes1 {
+            border: 1px solid #969696;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            width: 300px;
+            height: 230px;
+
+
+            .icon {
+                background-color: #ffc451;
+                text-align: center;
+                width: fit-content;
+                height: fit-content;
+                padding: 15px;
+                font-size: 30px;
+            }
+
+            .text3 {
+                p {
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+
+                span {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+
+
+.apply {
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url(../../../../public/assets/cta-bg.jpg) 100% center no-repeat;
+    background-attachment: fixed;
+    padding: 15px;
+
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        align-items: center;
+        width: 80%;
+        justify-content: center;
+        margin: 0 auto;
+        gap: 15px;
+        text-align: center;
+        z-index: 99;
+
+        p {
+            font-size: 30px;
+            font-weight: 600;
+            margin: 0;
+        }
+
+
+        span {
+            font-size: 15px;
+            line-height: 30px;
+        }
+
+        button {
+            outline: none;
+            border: 1px solid #ffc451;
+            border-radius: 15px;
+            background-color: transparent;
+            color: #fff;
+            padding: 15px;
+        }
+
+        button:hover {
+            background-color: #ffc451;
+            color: #000;
+
+        }
+
+    }
+}

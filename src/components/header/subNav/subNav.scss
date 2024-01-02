@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    background: url(../../../../public/assets/hero-bg.jpg) top center no-repeat;
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url(../../../../public/assets/hero-bg.jpg) top center no-repeat;
     height: 100vh;
     width: 100%;
     color: #fff;
@@ -28,12 +28,12 @@
         font-weight: 700;
         z-index: 99;
     }
-    
+
     .title {
         color: #ffc451;
         z-index: 99;
     }
-    
+
     span {
         z-index: 99;
         font-size: 25px;

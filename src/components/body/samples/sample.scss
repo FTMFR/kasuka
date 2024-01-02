@@ -1,0 +1,38 @@
+.content1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 300px;
+
+
+    p {
+        padding: 10px;
+        border-radius: 15px;
+    }
+
+    p.active {
+        background-color: #ffc451;
+    }
+
+
+}
+
+
+.content2{
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    flex-direction: column;
+    // width: 1000px;
+    height: 1000px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 15px;
+
+
+    img{
+        width: 30%;
+        height: fit-content;
+    }
+}
