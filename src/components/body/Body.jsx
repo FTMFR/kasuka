@@ -1,7 +1,13 @@
 import React from "react";
-import { BiCheckDouble } from "react-icons/bi";
 import Clients from "./clients/Clients";
 import Products from "./products/Products";
+import Contacts from "./contacts/Contacts";
+import Teams from "./teams/Teams";
+import { BiCheckDouble } from "react-icons/bi";
+import { FaRegSmile } from "react-icons/fa";
+import { BsJournalBookmark } from "react-icons/bs";
+import { FaRegClock } from "react-icons/fa6";
+import { FiAward } from "react-icons/fi";
 import "./body.scss";
 
 const apiContent = [
@@ -125,6 +131,83 @@ const Body = () => {
         </div>
       </div>
       <Products />
+      <div className="best">
+        <div className="leftPart">
+          <h1>شایسته ترین لذت را به هر حال ارائه می دهد</h1>
+          <p>
+            خود درد ممکن است درد زیادی باشد ، اما دلیل اصلی آن درد است ، اما من
+            به آن زمان می دهم تا مانند یک درد و درد بزرگ در آن فرو برود. درد
+            مقصر است
+          </p>
+          <ul>
+            <li>
+              <div className="titr">
+                <FaRegSmile />
+                <p>65</p>
+              </div>
+              <span>
+                مشتریان خوشحال خوشحالیم که
+                <br />
+                از معمار چیزی دریافت کنیم.
+              </span>
+            </li>
+            <li>
+              <div className="titr">
+                <BsJournalBookmark />
+                <p>85</p>
+              </div>
+              <span>
+                پروژه ها برای بدست آوردن و زمانی که او
+                <br />
+                کل کسانی را که از او تعریف می کنند
+                <br />
+                رد می کند و آنها را حقیر می شمارد
+              </span>
+            </li>
+            <li>
+              <div className="titr">
+                <FaRegClock />
+                <p>35</p>
+              </div>
+              <span>
+                سال ها تجربه یا اجازه دهید به
+                <br />
+                دنبال نوعی مزیت باشد
+              </span>
+            </li>
+            <li>
+              <div className="titr">
+                <FiAward />
+                <p>20</p>
+              </div>
+              <span>
+                جوایز درد دردناک تر است در زمانی دیگر که
+                <br />
+                هیچکس او را متهم نمی کند و
+                <br />
+                هیچ وقت او را متهم نمی کند
+              </span>
+            </li>
+          </ul>
+        </div>
+        <div className="rightPart">
+          <img src="./assets/counts-img.jpg" alt="counts img" />
+        </div>
+      </div>
+      <div className="effectPart">
+        <div className="content">
+        <div className="circle"></div>
+          <h1 className="name">سارا ویلسون</h1>
+          <span className="position">طراح</span>
+          <p className="desription">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem,
+            ut. Consequuntur odit eum maiores consectetur repudiandae
+            dignissimos culpa mollitia cumque.
+          </p>
+        </div>
+      </div>
+      <Teams />
+      <Contacts />
     </>
   );
 };
