@@ -1,0 +1,21 @@
+* {
+    color: #fff;
+}
+
+.wholeCopy {
+    background-color: #000;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+   
+    a {
+        color: #ffc451;
+        display: inline-block;
+        height: fit-content;
+        width: fit-content;
+        text-decoration: none;
+    }
+}

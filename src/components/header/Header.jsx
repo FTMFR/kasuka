@@ -18,7 +18,7 @@ const Header = () => {
             <li>تماس با ما</li>
           </ul>
         </div>
-        <Logo />
+        <Logo color="white" />
       </div>
     </div>
   );
